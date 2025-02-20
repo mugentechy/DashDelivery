@@ -95,3 +95,13 @@
 .pt-5{
   padding-top: 8em;
 }
+
+.button-b{
+  border: 2px solid #005E3A;
+  font-family: 'Red Hat Text', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration: none;
+background-color: rgba(0,227,148,1.0);
+  color: #000000;
+}

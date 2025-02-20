@@ -39,34 +39,31 @@ const [isAccordionSOpen, setIsAccordionSOpen] = useState(false);
     <>
   <div className=' inline-block'>
  
- <section className="max-w-7xl mx-auto px-8 sm:px-16 flex flex-row items-center gap-2 pt-24">
+<div className="w-full h-[650px] sm:h-[400px] lg:h-[550px] xl:h-[650px] 2xl:h-[750px] bg-cover bg-center flex items-center  sm:px-12 " 
+  >
+  
+  {/* Content Section */}
+  <div className="flex flex-col lg:flex-row items-center justify-between w-full">
+    
+    {/* Left - Text Section */}
+    <div className="w-full lg:w-1/2 text-center lg:text-left">
+      <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold leading-snug sm:leading-tight">
+     About us
+      </h2>
+   
+      <p className="mt-6 text-lg sm:text-xl leading-relaxed">
+ Kenyan tech company delivering trusted end-to-end regulatory compliance solutions to global supply chains. 
+      </p>
+      <button className="mt-8 px-8 py-4 text-lg button text-white rounded-lg">Lets chat!</button>
+    </div>
 
+    {/* Right - Image Section (Hidden on small screens) */}
+    <div className="w-full lg:w-1/2 flex justify-center mt-8 lg:mt-0 hidden sm:block">
+      <img className="w-full max-w-[500px] object-cover" src="/images/block.svg" alt="Second Image" />
+    </div>
 
-       <div className="
-     w-full
-          h-[50vh]
-          overflow-hidden 
-          rounded-xl
-          relative
-         
-        "
-      >
-        <img
-          src='/images/question.jpg'
- 
-          className=" object-cover 
-              h-full 
-              w-full 
-              group-hover:scale-110 
-              transition"
-          alt="Image"
-        />
-               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-    <p className="text-sm sm:text-lg text-white">FAQS</p>
-   </div>
-        </div>
-
-</section>
+  </div>
+</div>
 
 
     <section className="w-full  sm:mt-24  md:mt-32 px-5 sm:px-10 md:px-24  sxl:px-32 flex flex-col items-center justify-center">

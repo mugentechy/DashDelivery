@@ -69,7 +69,7 @@ function Footer() {
 
       {/* Copyright Section */}
       <div className="w-full mt-10 border-t border-light py-6 px-8 flex items-center justify-center text-center">
-        <span>&copy; 2025 AgriLink. All rights reserved.</span>
+        <span>&copy; 2025 DashDelivery. All rights reserved.</span>
       </div>
 
     </footer>
