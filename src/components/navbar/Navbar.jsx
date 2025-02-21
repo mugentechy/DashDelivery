@@ -15,7 +15,7 @@ const { currentUser } = useSelector((state) => state.currentUser)
       <div
         className="
           py-4 
-          border-b-[1px]
+       
         "
       >
       <Container>
